@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve stk-ui-host",
     "build": "ng build stk-ui --configuration production",
+    "postbuild": "cd ./dist/stk-ui && npm link",
     "watch": "ng build stk-ui --watch --configuration development",
     "test": "ng test"
   },

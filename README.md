@@ -2,8 +2,9 @@
 
 ```bash
 ng new stk-ws-ui --no-create-application
+cd stk-ws-ui
 ng g lib stk-ui -p=stk-ui
-ng g app stk-ui-host --minimal
+ng g app stk-ui-host --minimal --routing=false
 ```
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.1.

@@ -14,7 +14,7 @@ import {
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <span>
-      📍At <strong>{{ value() }}</strong>
+      📍at <strong>{{ value() }}</strong>
     </span>
   `,
 })
@@ -23,4 +23,5 @@ export class LocationComponent {
 
   /** Location value */
   value: InputSignal<string> = input.required<string>();
+  // @Input({ required: true }) value: string = '';
 }
