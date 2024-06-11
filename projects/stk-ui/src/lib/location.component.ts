@@ -14,8 +14,7 @@ import {
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <span>
-      📍at
-      <strong>{{ value() }}</strong>
+      📍At <strong>{{ value() }}</strong>
     </span>
   `,
 })

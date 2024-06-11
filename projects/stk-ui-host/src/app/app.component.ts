@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { LocationComponent } from 'stk-ui';
+import { LocationComponent } from '../../../stk-ui/src/public-api';
+
 
 @Component({
   selector: 'app-root',
