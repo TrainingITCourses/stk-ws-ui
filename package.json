@@ -6,6 +6,7 @@
     "start": "ng serve stk-ui-host",
     "start:wbc": "ng serve stk-ui-wbc",
     "build": "ng build stk-ui --configuration production",
+    "build:wbc": "ng build stk-ui-wbc --configuration production",
     "postbuild": "cd ./dist/stk-ui && npm link",
     "watch": "ng build stk-ui --watch --configuration development",
     "test": "ng test"

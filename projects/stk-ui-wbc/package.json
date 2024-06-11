@@ -1,0 +1,10 @@
+{
+  "name": "@stk/wbc",
+  "version": "1.0.0",
+  "description": "Web Component for STK",
+  "main": "main.js",
+  "files": [
+    "main.js",
+    "styles.css"
+  ]
+}
